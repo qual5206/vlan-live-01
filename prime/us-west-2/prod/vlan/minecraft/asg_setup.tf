@@ -77,6 +77,7 @@ set +e
     -e MEMORY=6G \
     -e MAX_TICK_TIME=-1 \
     -e OPS=Draelyr,Qualenal \
+    -e DIFFICULTY=hard \
     -v /root/gp3/${var.game}:/data \
     ${var.image}
 )
